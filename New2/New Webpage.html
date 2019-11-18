@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Vacation Planning User info">
+  <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+  <meta name="author" content="Samuen Nguyen">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<title>Easy Vacation Planning User Sign Up
+</title>
+<link rel = "stylesheet" type = text/css href = "css/Form.css"/>
+
+<form>
+
+<h1> Please enter your information below  </h1><br />
+<header> <!-- Created by Samuen --> </header>
+<p>This helps you keep track of the places you viewed so you can always comeback to them. </p> <br />
+<p>If you ever purchased anything from our website including hotel rooms reservations, plane tickets, or even activity tickets we can mail them to you 
+or send a confirmation to your email. </p> <br />
+
+
+<p><label for="userName"> Name (Last, First): </label>
+   <input name="userName" type="text" id="userName" size="23"/></p>
+
+<p><label for="userEmail"> Email Address: </label>
+   <input name="userEmail" type="text" id="userEmail" size="35"/></p>
+
+<p><label for="userPhone"> Phone Number: </label>
+   <input name="userPhone" type="text" id="userPhone" size="18"/></p>
+
+<p><label for="userMailing"> Mailing Address: </label>
+   <textarea name="userMailing" id="userMailing" rows="2" cols="50"></textarea></p>
+
+<p>What is the best way to reach you?:
+
+<label for="primaryContactP"> 
+<input name="primaryContactP" type="radio" id="primaryContactP" />Phone</label>nbsp;&nbsp;
+
+<label for="primaryContactE"> 
+<input name="primaryContactE" type="radio" id="primaryContactE"  />Email</label><br />&nbsp;&nbsp;
+
+<label for="primaryContactM"> 
+<input name="primaryContactM" type="radio" id="primaryContactM"  /></label>Mail
+
+</p>
+<p>Which areas are you trying to travel to?: <br />
+
+<select name="area">
+
+<option>Within your country</option>
+
+<option>Outside your country</option>
+
+<option>Both</option>
+
+</select></p>
+
+<p><input type="reset" value="Clear" /> <button onclick="myFunction()"> Submit</button> </p>
+
+
+<script src = "JavaS/new.js" ></script>
+<h1> If you already made an account please sign in.
+</h1><br />
+
+<div>
+
+<label for="username">Username:</label>
+
+<input type="text" id="username" name="username">
+</div>
+
+<div>
+<label for="pass">Password:</label>
+
+<input type="password" id="pass" name="password"
+           minlength="8" required>
+		   
+</div>
+
+<input type="submit" value="Sign in">
+</form>
+
+	
+
+<footer> snguyen12@student.clayton.edu Due by 11/17/2019 </footer>
+</body> 
+</html>
