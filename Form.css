@@ -1,0 +1,17 @@
+body{
+	background: #ffe4b5;
+	font-family: arial;
+}
+
+h1{
+	text-align: center;
+}
+h2{
+	text-align: center;
+}
+label, input { 
+margin-bottom: 10px;
+}
+label {
+padding-right:10px;
+}
